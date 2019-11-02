@@ -1,0 +1,22 @@
+{
+  "name": "todos-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
